@@ -18,13 +18,13 @@ for(int j=0;j<10;j++){
 int main(){
 
 int arr[10];
-cout<<"Enter the array"<<endl;
+cout<<"Enter the array to be sorted"<<endl;
 for(int i=0;i<10;i++)
     {
         cin>>arr[i];
     }
 bubble(arr);
-
+cout << "the sorted array is" << endl;
 for(int i=0;i<10;i++)
     {
         cout<<arr[i]<<endl;
